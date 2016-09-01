@@ -15,6 +15,10 @@
 		85DA8F8B1D780E8800F5A151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DA8F891D780E8800F5A151 /* LaunchScreen.storyboard */; };
 		85DA8F961D780E8800F5A151 /* DLOAuthKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA8F951D780E8800F5A151 /* DLOAuthKitTests.m */; };
 		85DA8FA11D780E8800F5A151 /* DLOAuthKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA8FA01D780E8800F5A151 /* DLOAuthKitUITests.m */; };
+		85DA8FBA1D780EBB00F5A151 /* DLOAuthKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA8FB11D780EBB00F5A151 /* DLOAuthKit.m */; };
+		85DA8FBB1D780EBB00F5A151 /* DLOAuthQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA8FB51D780EBB00F5A151 /* DLOAuthQQ.m */; };
+		85DA8FBC1D780EBB00F5A151 /* DLOAuthWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA8FB71D780EBB00F5A151 /* DLOAuthWeChat.m */; };
+		85DA8FBD1D780EBB00F5A151 /* DLOAuthWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA8FB91D780EBB00F5A151 /* DLOAuthWeibo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,16 @@
 		85DA8F9C1D780E8800F5A151 /* DLOAuthKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLOAuthKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DA8FA01D780E8800F5A151 /* DLOAuthKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLOAuthKitUITests.m; sourceTree = "<group>"; };
 		85DA8FA21D780E8800F5A151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DA8FB01D780EBB00F5A151 /* DLOAuthKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLOAuthKit.h; sourceTree = "<group>"; };
+		85DA8FB11D780EBB00F5A151 /* DLOAuthKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLOAuthKit.m; sourceTree = "<group>"; };
+		85DA8FB21D780EBB00F5A151 /* DLOAuthKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLOAuthKitConfig.h; sourceTree = "<group>"; };
+		85DA8FB31D780EBB00F5A151 /* DLOAuthProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLOAuthProtocol.h; sourceTree = "<group>"; };
+		85DA8FB41D780EBB00F5A151 /* DLOAuthQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLOAuthQQ.h; sourceTree = "<group>"; };
+		85DA8FB51D780EBB00F5A151 /* DLOAuthQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLOAuthQQ.m; sourceTree = "<group>"; };
+		85DA8FB61D780EBB00F5A151 /* DLOAuthWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLOAuthWeChat.h; sourceTree = "<group>"; };
+		85DA8FB71D780EBB00F5A151 /* DLOAuthWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLOAuthWeChat.m; sourceTree = "<group>"; };
+		85DA8FB81D780EBB00F5A151 /* DLOAuthWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLOAuthWeibo.h; sourceTree = "<group>"; };
+		85DA8FB91D780EBB00F5A151 /* DLOAuthWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLOAuthWeibo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		85DA8F7A1D780E8800F5A151 /* DLOAuthKit */ = {
 			isa = PBXGroup;
 			children = (
+				85DA8FAF1D780EBB00F5A151 /* DLOAuthKit */,
 				85DA8F7E1D780E8800F5A151 /* AppDelegate.h */,
 				85DA8F7F1D780E8800F5A151 /* AppDelegate.m */,
 				85DA8F811D780E8800F5A151 /* ViewController.h */,
@@ -138,6 +153,23 @@
 				85DA8FA21D780E8800F5A151 /* Info.plist */,
 			);
 			path = DLOAuthKitUITests;
+			sourceTree = "<group>";
+		};
+		85DA8FAF1D780EBB00F5A151 /* DLOAuthKit */ = {
+			isa = PBXGroup;
+			children = (
+				85DA8FB01D780EBB00F5A151 /* DLOAuthKit.h */,
+				85DA8FB11D780EBB00F5A151 /* DLOAuthKit.m */,
+				85DA8FB21D780EBB00F5A151 /* DLOAuthKitConfig.h */,
+				85DA8FB31D780EBB00F5A151 /* DLOAuthProtocol.h */,
+				85DA8FB41D780EBB00F5A151 /* DLOAuthQQ.h */,
+				85DA8FB51D780EBB00F5A151 /* DLOAuthQQ.m */,
+				85DA8FB61D780EBB00F5A151 /* DLOAuthWeChat.h */,
+				85DA8FB71D780EBB00F5A151 /* DLOAuthWeChat.m */,
+				85DA8FB81D780EBB00F5A151 /* DLOAuthWeibo.h */,
+				85DA8FB91D780EBB00F5A151 /* DLOAuthWeibo.m */,
+			);
+			path = DLOAuthKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DA8FBA1D780EBB00F5A151 /* DLOAuthKit.m in Sources */,
 				85DA8F831D780E8800F5A151 /* ViewController.m in Sources */,
 				85DA8F801D780E8800F5A151 /* AppDelegate.m in Sources */,
+				85DA8FBC1D780EBB00F5A151 /* DLOAuthWeChat.m in Sources */,
+				85DA8FBB1D780EBB00F5A151 /* DLOAuthQQ.m in Sources */,
 				85DA8F7D1D780E8800F5A151 /* main.m in Sources */,
+				85DA8FBD1D780EBB00F5A151 /* DLOAuthWeibo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
